@@ -21,8 +21,12 @@ namespace Test
             int i = 1;
             while(i <= range)
             {
-                Console.WriteLine(i);
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);   
+                }
                 i++;
+
             }
         }
 
