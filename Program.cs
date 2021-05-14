@@ -8,54 +8,18 @@ namespace Test
     
     class Program
     {
-        
-
         static void Main(string[] args)
         {
-            var s = "String";
-        }
-    }
-   
-    public class A
-    {
-        public A()
-        {
 
-            Console.WriteLine("This is base class");
-        }
-        public virtual string getname()
-        {
-            return "madhu";
-        }
-        public virtual void run()
-        {
+            Operators op = new Operators();
             
-        }
-        
-    }
-    class B : A
-    {
-        public B()
-        {
-            Console.WriteLine("This is derived class");
-        }
-        public void display()
-        {
-            Console.WriteLine(base.getname());
-        }
-        public sealed override void run()
-        {
+            op.arithmeticOperations(100, 20);
+            op.logicalOperations(100, 20);
+            op.relationalOperations(100, 20);
+            op.bitwiseOperations(100, 20);
+            op.assignmentOperations(100, 20);
 
         }
     }
-    class C : A
-    {
-        public override void run()
-        {
-            
-        }
-
-    }
-    
 
 }
