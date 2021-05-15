@@ -47,6 +47,7 @@ namespace Test
             stringFormatters.getStringFormatters();
             // Decimal Formatters
             stringFormatters.getDecimalFormatters();
+            stringFormatters.getCustomFormatters();
 
 
 

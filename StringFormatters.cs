@@ -60,5 +60,18 @@ namespace Test
 
 
         }
+
+        // This method will give you the basic Custom Formatters
+        public void getCustomFormatters()
+        {
+            Console.WriteLine("--------------------------------Custom Formatters------------------------------");
+            Console.WriteLine("{0:0000}",123);// o/p : 0123
+            Console.WriteLine("{0:0.00}",123);// o/p : 123.00
+            Console.WriteLine("{0:##.###}",1.23456);
+            Console.WriteLine("{0:(##)-###}",9550023);
+            Console.WriteLine("{0:##-##-###}",9550023446);
+            Console.WriteLine("'{0,6:#.###}'",.124);
+            Console.WriteLine("{0:0%}",0.25);
+        }
     }
 }
