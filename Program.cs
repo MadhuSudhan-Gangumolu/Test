@@ -23,7 +23,7 @@ namespace Test
             branch.checkEvenOrOdd(10);
             branch.checkLargestOfThreeNumbers(10, 20, 30);
             branch.printDigitName(5);
-            Console.WriteLine( (int) Math.Sqrt(26));
+            Console.WriteLine((int)Math.Sqrt(26));
             Console.WriteLine("-----------------------------------------------------");
             //Looping control statements Examples
             LoopingStatements loopings = new LoopingStatements();
@@ -39,6 +39,10 @@ namespace Test
             {
                 Console.WriteLine("Given number is Not a prime number");
             }
+            Console.WriteLine("--------------------------------------------------------------");
+            // Date Formatters Example
+            StringFormatters stringFormatters = new StringFormatters();
+            stringFormatters.getDateFormatters();
 
 
 
