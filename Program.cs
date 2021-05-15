@@ -29,6 +29,7 @@ namespace Test
             LoopingStatements loopings = new LoopingStatements();
             loopings.printEvenNumbers(5);
             loopings.printNumbers(5);
+
             bool status = loopings.checkPrime(1);
             if (status)
             {
