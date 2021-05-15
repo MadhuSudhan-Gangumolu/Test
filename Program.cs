@@ -43,6 +43,10 @@ namespace Test
             // Date Formatters Example
             StringFormatters stringFormatters = new StringFormatters();
             stringFormatters.getDateFormatters();
+            // String Formatters
+            stringFormatters.getStringFormatters();
+            // Decimal Formatters
+            stringFormatters.getDecimalFormatters();
 
 
 
