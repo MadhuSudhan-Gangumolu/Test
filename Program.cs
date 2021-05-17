@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Test
-{
-    
+{  
     class Program
-    {
+    {       
         static void Main(string[] args)
         {
             // Operators Example
@@ -48,10 +48,24 @@ namespace Test
             // Decimal Formatters
             stringFormatters.getDecimalFormatters();
             stringFormatters.getCustomFormatters();
-
-
-
-
+            Console.WriteLine("-------------------------------------------------------------------");
+            MethodsExamples methods = new MethodsExamples();
+            int a = 10;
+            int b = 20;
+            int result;
+            methods.example1(a,b);
+            methods.example2();
+            result = methods.example3();
+            Console.WriteLine("The value of result {0}",result);
+            result = methods.example4(a, b);
+            Console.WriteLine("The value of result {0}",result);
+            methods.example5(ref a,ref b);
+            Console.WriteLine("Changed values of a is {0} and b value is {1}",a,b);
+            methods.example6(out a, out b);
+            Console.WriteLine("Changed values of a is {0} and b value is {1}", a, b);
+            methods.example7(in a,  in b);
+            Console.WriteLine("ReadOnly values of a is {0} b value is {1}", a, b);
+            methods.findBiggest(10, 5, 45, 54, 65, 12);
         }
     }
 
