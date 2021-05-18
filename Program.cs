@@ -85,6 +85,10 @@ namespace Test
             Console.WriteLine(myStruct.ToString());
             MyStruct.addSum();
 
+            //Dictionary Examples
+            DictionaryExamples dict = new DictionaryExamples();
+            dict.getDictionaryMethids();
+
 
 
         }
