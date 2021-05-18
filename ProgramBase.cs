@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-
-namespace Test
-{  
-    class Program
-    {       
+﻿namespace Test
+{
+    internal class ProgramBase
+    {
         static void Main(string[] args)
         {
             //// Operators Example
@@ -81,15 +72,6 @@ namespace Test
 
             //Structure Examples
 
-            MyStruct myStruct = new MyStruct(10,20);
-            Console.WriteLine(myStruct.ToString());
-            MyStruct.addSum();
-
-
-
         }
     }
-
-    
-
 }

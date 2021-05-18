@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "pllOHrlFMBcnAadgEMP0epoZg/20gFbdFPPd3IfK/Zp+29SNgfwM1M92GWhrpwksaFB9fIokuZHymnDMi1iRiw==",
+  "dgSpecHash": "EZaO/xPcXy7niz5seDSN6315wqtWX36x9lgX1TTqMCyQWjlSNzbChLJ4p6Y4RvrDjiXbi3/Qt3MbK4WcEHrSqA==",
   "success": true,
   "projectFilePath": "D:\\git\\Test\\Test.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
