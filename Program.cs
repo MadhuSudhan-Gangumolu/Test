@@ -76,24 +76,24 @@ namespace Test
             //array.get2DArray();
             //array.getJaggedArray();
 
-            ListExamples list = new ListExamples();
-            list.listMethods();
+            //ListExamples list = new ListExamples();
+            //list.listMethods();
 
-            //Structure Examples
+            ////Structure Examples
 
             MyStruct myStruct = new MyStruct(10,20);
-            Console.WriteLine(myStruct.ToString());
-            MyStruct.addSum();
 
-            //Dictionary Examples
-            DictionaryExamples dict = new DictionaryExamples();
-            dict.getDictionaryMethids();
+            //Console.WriteLine(myStruct.ToString());
+            //MyStruct.addSum();
 
+            ////Dictionary Examples
+            //DictionaryExamples dict = new DictionaryExamples();
+            //dict.getDictionaryMethids();
+            
 
 
         }
+        
     }
-
-    
 
 }

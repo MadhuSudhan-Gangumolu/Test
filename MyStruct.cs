@@ -13,7 +13,7 @@ namespace Test
 
         public static void addSum()
         {
-            Console.WriteLine(number1+number2);
+            Console.WriteLine(number1 + number2);
         }
         public override string ToString() => $"(number 1 = {number1} & number 2 = {number2})";
     }
