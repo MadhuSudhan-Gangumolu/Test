@@ -94,10 +94,30 @@ namespace Test
             //ee.Name = "Madhu";
             //ee.Age = 22;
             //ee.getDetails();
-            AbstrationExample ae = new AbstrationExample();
-            ae.powerOn();
-            InheritanceExample2 ie = new InheritanceExample2();
-            ie.say();
+            //AbstrationExample ae = new AbstrationExample();
+            //ae.powerOn();
+            //InheritanceExample2 ie = new InheritanceExample2();
+            //ie.say();
+            //classes and constructors
+            //default constructor is called
+            ClassAndConstructor cc = new ClassAndConstructor();
+            cc.getDetails();
+
+            //Parameterized constructor
+            ClassAndConstructor cc1 = new ClassAndConstructor("Madhu",21);
+            cc1.getDetails();
+
+            //copy Constructor
+            ClassAndConstructor cc2 = new ClassAndConstructor(cc1);
+            cc2.getDetails();
+
+
+            //Destructor
+            GC.Collect();
+            Console.ReadLine();
+
+
+
 
         }        
     }
