@@ -6,10 +6,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-
 namespace Test
-{  
-    class Program
+{
+    public class Program 
     {       
         static void Main(string[] args)
         {
@@ -81,7 +80,7 @@ namespace Test
 
             ////Structure Examples
 
-            MyStruct myStruct = new MyStruct(10,20);
+            //MyStruct myStruct = new MyStruct(10,20);
 
             //Console.WriteLine(myStruct.ToString());
             //MyStruct.addSum();
@@ -89,11 +88,17 @@ namespace Test
             ////Dictionary Examples
             //DictionaryExamples dict = new DictionaryExamples();
             //dict.getDictionaryMethids();
-            
 
+            //Encapulation example
+            //EncapsulationExample ee =new EncapsulationExample();
+            //ee.Name = "Madhu";
+            //ee.Age = 22;
+            //ee.getDetails();
+            AbstrationExample ae = new AbstrationExample();
+            ae.powerOn();
+            InheritanceExample2 ie = new InheritanceExample2();
+            ie.say();
 
-        }
-        
+        }        
     }
-
 }

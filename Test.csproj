@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>Test.Enums</StartupObject>
+    <StartupObject>Test.Program</StartupObject>
     <AssemblyName>Test</AssemblyName>
   </PropertyGroup>
 
