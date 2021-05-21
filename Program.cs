@@ -5,11 +5,21 @@ using System.Globalization;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Sample.Demo;
+using Sample;
 
 namespace Test
 {
-    public class Program 
-    {       
+    public class Program : IInterface, IInterface2
+    {
+         void IInterface.add(int a, int b)
+        {
+            Console.WriteLine($"The sum is {a+b}");
+        }
+         void IInterface2.add(int a, int b)
+        {
+            Console.WriteLine($"The second sum  is {a + b}");
+        }
         static void Main(string[] args)
         {
             //// Operators Example
@@ -114,11 +124,39 @@ namespace Test
 
             //Destructor
             GC.Collect();
-            Console.ReadLine();
+            
 
+            PartialClass pc = new PartialClass();
+            pc.sayHello();
+            pc.sayHi();
+
+            NamespaceExample ns = new NamespaceExample();
+            ns.sayHi();
+            Class2 c = new Class2();
+            c.sayBye();
+
+            IInterface i = new Program();
+            i.add(10,20);
+            IInterface2 i2 = new Program();
+            i2.add(10, 40);
+            
 
 
 
         }        
     }
+    // we will not use multiple inheritance in c# it can be achieved by interfaces
+    //class A
+    //{
+    //    int x = 10;
+    //}
+    //class B:A
+    //{
+    //    int x = 10;
+
+    //}
+    //class C : A, B
+    //{
+
+    //}
 }
