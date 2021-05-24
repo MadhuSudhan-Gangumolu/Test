@@ -139,9 +139,6 @@ namespace Test
             i.add(10,20);
             IInterface2 i2 = new Program();
             i2.add(10, 40);
-            
-
-
 
         }        
     }

@@ -10,6 +10,14 @@ namespace Test
         {
             Console.WriteLine("Iam base class constructor");
         }
+        public InheritanceExample(int a)
+        {
+            Console.WriteLine("Iam base class parameter constructor");
+        }
+        protected void hai()
+        {
+
+        }
         public virtual void say()
         {
             Console.WriteLine("hai");

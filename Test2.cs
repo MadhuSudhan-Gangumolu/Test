@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Test
 {
-    class Test2:Test1
+    class Test2 : Test1
     {
         
         static void Main()
@@ -16,6 +16,7 @@ namespace Test
             t.protectedInternalMethod();
             t.protectedMethod();
             t.publicMethod();
+            
         }
     }
 }
