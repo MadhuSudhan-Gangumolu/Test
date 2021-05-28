@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Test/1.0.0": {
+      "Test3/1.0.0": {
         "runtime": {
-          "Test.dll": {}
+          "Test3.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Test/1.0.0": {
+    "Test3/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

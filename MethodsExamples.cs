@@ -34,15 +34,16 @@ namespace Test
         }
         //This method will accepts the referenced arguments.
         //When the arguments are changed in the method it will reflects  to the actual arguments
-        public void example5(ref int a, ref int b)
+        public static void example5(ref int a, ref int b)
         {
+            
             Console.WriteLine("The parameter argumets are changed  a to 22 and b to 40");
             a = 22;
             b = 40;
         }
         //This method will accepts the out arguments.
         //The passed arguments will not be used and we need to initilize the arguments the values the will reflects on actual arguments
-        public void example6(out int a, out int b)
+        public static void example6(out int a, out int b)
         {
             Console.WriteLine("a value will be changed to 11 and b value will be 22");
             a = 11;
@@ -66,6 +67,11 @@ namespace Test
                 }
             }
             Console.WriteLine("The biggest element is {0}",big);
+        }
+        static void Main(string[] args)
+        {
+
+            
         }
 
     }

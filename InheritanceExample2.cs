@@ -4,22 +4,47 @@ using System.Text;
 
 namespace Test
 {
-    class InheritanceExample2 : InheritanceExample
-    {
-        public InheritanceExample2()
+    class BaseClassA
+    { 
+        public virtual void say()
         {
-            Console.WriteLine("Iam child");
+            Console.WriteLine("Class A Virtual method");
         }
+        public void demo()
+        {
+            Console.WriteLine("Class A normal Method");
+        }
+
+    }
+    class DerivedClassB : BaseClassA
+    {
         public override void say()
         {
-            base.say();
-            Console.WriteLine("Iam derived class");
-            base.hai();
+            Console.WriteLine("Class B Override method");
         }
+        public void demo()
+        {
+            Console.WriteLine("Class B normal Method");
+        }
+    }
+
+    class InheritanceExample2 : DerivedClassB
+    {
+        
+        
         static void Main(string[] args)
         {
-            InheritanceExample2 i = new InheritanceExample2();
-
+            BaseClassA a = new BaseClassA();
+            DerivedClassB b = new DerivedClassB();
+            BaseClassA c = new DerivedClassB();
+            
+            a.say();
+            a.demo();
+            b.say();
+            b.demo();
+            c.say();
+            c.demo();
+            
         }
     }
 }
