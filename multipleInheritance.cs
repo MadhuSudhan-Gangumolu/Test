@@ -4,24 +4,30 @@ using System.Text;
 
 namespace Test1
 {
-    interface A
+     class A
     {
-        void m1();
-    }
-    interface B
-    {
-        void m2();
-
-    }
-    class multipleInheritance : A,B
-    {
-        void A.m1()
+        static A()
         {
-            
+            Console.WriteLine("Static A");
         }
-        void B.m2()
+        public A()
         {
-
+            Console.WriteLine("Noramal A");
+        }
+    }
+    static class B
+    {
+        
+        
+        
+    }
+    class multipleInheritance 
+    {
+        static void Main(string[] args)
+        {
+            A a = new A();
+            A b = new A();
+            //op static A
         }
 
     }

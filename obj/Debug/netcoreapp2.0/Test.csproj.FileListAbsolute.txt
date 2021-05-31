@@ -1,4 +1,3 @@
-D:\git\Test\obj\Debug\netcoreapp2.0\Test.csprojAssemblyReference.cache
 D:\git\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfoInputs.cache
 D:\git\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfo.cs
 D:\git\Test\obj\Debug\netcoreapp2.0\Test.csproj.CoreCompileInputs.cache
@@ -10,3 +9,4 @@ D:\git\Test\bin\Debug\netcoreapp2.0\Test3.dll
 D:\git\Test\bin\Debug\netcoreapp2.0\Test3.pdb
 D:\git\Test\obj\Debug\netcoreapp2.0\Test3.dll
 D:\git\Test\obj\Debug\netcoreapp2.0\Test3.pdb
+D:\git\Test\obj\Debug\netcoreapp2.0\Test.csproj.AssemblyReference.cache
