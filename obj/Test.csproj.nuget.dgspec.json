@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\git\\Test\\Test.csproj",
-        "projectName": "Test3",
+        "projectName": "Test",
         "projectPath": "D:\\git\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\",
         "outputPath": "D:\\git\\Test\\obj\\",
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[2.0.0, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
