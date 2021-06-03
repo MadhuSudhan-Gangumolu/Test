@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "LinqToExcel/1.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/LinqToExcel.dll": {},
+          "lib/Remotion.Data.Linq.dll": {},
+          "lib/Remotion.Interfaces.dll": {},
+          "lib/Remotion.dll": {}
+        },
+        "runtime": {
+          "lib/LinqToExcel.dll": {},
+          "lib/Remotion.Data.Linq.dll": {},
+          "lib/Remotion.Interfaces.dll": {},
+          "lib/Remotion.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -209,6 +224,22 @@
     }
   },
   "libraries": {
+    "LinqToExcel/1.11.0": {
+      "sha512": "j3e8Dzq5z5hXeRWCV1AP/Kn7dGFrydlv2U1OtzquAYlW89oPSyG0NQSCEaaGg4wdTDW8sQNLGT3lyQDSq3ARmA==",
+      "type": "package",
+      "path": "linqtoexcel/1.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/LinqToExcel.dll",
+        "lib/LinqToExcel.xml",
+        "lib/Remotion.Data.Linq.dll",
+        "lib/Remotion.Interfaces.dll",
+        "lib/Remotion.dll",
+        "linqtoexcel.1.11.0.nupkg.sha512",
+        "linqtoexcel.nuspec"
+      ]
+    },
     "Microsoft.NETCore.App/2.0.0": {
       "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
       "type": "package",
@@ -708,6 +739,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "LinqToExcel >= 1.11.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
@@ -719,7 +751,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\git\\Test\\Test.csproj",
-      "projectName": "Test",
+      "projectName": "Test1",
       "projectPath": "D:\\git\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\Madhu Gangumolu\\.nuget\\packages\\",
       "outputPath": "D:\\git\\Test\\obj\\",
@@ -751,6 +783,10 @@
       "netcoreapp2.0": {
         "targetAlias": "netcoreapp2.0",
         "dependencies": {
+          "LinqToExcel": {
+            "target": "Package",
+            "version": "[1.11.0, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -775,5 +811,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LinqToExcel 1.11.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LinqToExcel",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }
