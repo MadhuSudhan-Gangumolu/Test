@@ -14,6 +14,7 @@ namespace Test
             
             List<int> a = new List<int>() { 10, 20, 30, 40, 54, 23 };
             var i = a.FindAll(x => (x % 2) == 0);
+            
             foreach (var j in i)
             {
                 Console.WriteLine(j);

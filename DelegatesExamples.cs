@@ -6,7 +6,7 @@ namespace Test
 {
     public delegate void delemath(int x, int y);
 
-    // Func for value return type
+    //Func for value return type
     //Action for void type
     //Predicate for boolean type
     class DelegatesExamples

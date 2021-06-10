@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Test
 {
-    static class ExtendedMethods
+    public static class ExtendedMethods
     {
         public static string Reverse(this String str)
         {
